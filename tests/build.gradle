@@ -17,6 +17,7 @@ tasks.withType(ScalaCompile) {
 test {
 	scanForTestClasses = false
 	include '**/*Test.*'
+    maxHeapSize = "1024m"
 }
 
 dependencies {
