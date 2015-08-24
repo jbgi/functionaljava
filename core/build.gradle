@@ -74,7 +74,7 @@ uploadArchives {
                     licenses {
                         license {
                             name "The BSD3 License"
-                            url "https://github.com/functionaljava/functionaljava/blob/master/etc/LICENCE"
+                            url licenseUrl
                             distribution 'repo'
                         }
                     }

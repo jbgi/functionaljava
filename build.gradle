@@ -32,6 +32,7 @@ allprojects {
         primaryEmail = "functionaljava@googlegroups.com"
 
         dependencyJunit = "junit:junit:4.11"
+        licenseUrl = "https://github.com/functionaljava/functionaljava/blob/master/etc/LICENCE"
     }
 	version = fjVersion
 	group = "org.functionaljava"
