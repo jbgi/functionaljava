@@ -55,7 +55,7 @@ allprojects {
         fjConsumeVersion = "4.4"
 
         signModule = false
-        useRetroLambda = false
+        useRetroLambda = true
 
         projectTitle = "Functional Java"
 		projectName = "functionaljava"
@@ -78,8 +78,11 @@ allprojects {
         displayCompilerWarnings = true
 
         newJdkEnvVar = "JAVA8_HOME"
-        oldJdkEnvVar = "JAVA7_HOME"
-        retroLambdaTarget = JavaVersion.VERSION_1_7
+        oldJdkEnvVar = "JAVA6_HOME"
+        retroLambdaTarget = JavaVersion.VERSION_1_6
+
+        fjGroup = "org.functionaljava"
+        consumeGroup = fjGroup
     }
 
     repositories {
@@ -89,7 +92,8 @@ allprojects {
     }
 
 	version = fjVersion
-	group = "org.functionaljava"
+	group = "com.github.mperry"
+
 
 }
 

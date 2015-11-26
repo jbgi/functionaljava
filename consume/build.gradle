@@ -2,7 +2,7 @@
 archivesBaseName = "${project.projectName}-${project.name}"
 
 dependencies {
-    compile("$group:$projectName:$fjConsumeVersion")
+    compile("$consumeGroup:$projectName:$fjConsumeVersion")
 
     testCompile dependencyJunit
 }
